@@ -9,3 +9,58 @@
 html{
     font-family: 'Montserrat', sans-serif;
 }
+
+.main-container100{
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.side-menu{
+    height: 90%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo-cont{
+    padding: 30px;
+}
+
+.logo-cont > img{
+    width: 60%;
+    
+}
+
+.main{
+    height: 90%;
+    background: #141922;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.upgrade{
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    position: sticky;
+    padding: 30px;
+    color: white;
+    text-align: right;
+}
+
+.btn-up{
+    padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: green;
+}
