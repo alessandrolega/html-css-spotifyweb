@@ -242,14 +242,13 @@ ul li{
 }
 
 .footer-box1{
-    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .footer-img-cont > img{
-    width: 15%;
+    width: 60px;
     vertical-align: middle;
 }
 
@@ -259,6 +258,12 @@ ul li{
     color: white;
     
 }
+
+.album-text{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
 
 .album-text > h3{
     color: white;
@@ -270,7 +275,59 @@ ul li{
 .fa-regular, .far {
     font-weight: 400;
     color: grey;
+    padding-right: 10px;
 }
+
+.footer-box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list3{
+    color: grey;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    color: white;
+    padding-left: 20px;
+}
+
+.player-bar3{
+    width: 150px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fa-volume-high{
+    padding-right: 20px;
+}
+
+.player-bar3-inside{
+    width: 40px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.footer-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-shuffle, .fa-backward-step, .fa-circle-play, .fa-forward-step, .fa-rotate-right{
+    color: white
+}
+
+.fa-circle-play{
+    padding-left: 20px;
+}
+
+
+    
 
 
 
