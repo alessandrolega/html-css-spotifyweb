@@ -234,6 +234,45 @@ ul li{
     margin-top: 10px;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.footer-box1{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-img-cont > img{
+    width: 15%;
+    vertical-align: middle;
+}
+
+.span-white-bold-2{
+    font-weight: bold;
+    padding-left: 5px;
+    color: white;
+    
+}
+
+.album-text > h3{
+    color: white;
+}
+
+.album-text > p{
+    color: grey;
+}
+.fa-regular, .far {
+    font-weight: 400;
+    color: grey;
+}
+
+
 
 
 
