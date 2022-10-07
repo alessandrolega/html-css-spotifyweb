@@ -12,7 +12,6 @@ html{
 
 .main-container100{
     height: 100vh;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
 }
@@ -195,6 +194,7 @@ ul li{
 .card , .card2{
     width: calc(100% / 6);
     padding: 10px;
+    position: relative;
 
 }
 
@@ -362,6 +362,64 @@ ul li{
 .seconds-2 {
     padding-left: 20px;
 }
+
+.card-play-hover {
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    display: none;
+}
+  
+
+/* HOVERS */
+
+.span-grey:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.span-white:hover{
+    cursor: pointer;
+}
+
+.btn-up:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ul-flex li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.player-bar2-inside:hover, .player-bar3-inside:hover{
+    background-color: limegreen;
+    cursor: pointer;
+}
+
+.icon-cont-box1 i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.icon-center-cont3 > i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.card:hover > .card-play-hover{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    
+}
+
+.card > img:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 
     
