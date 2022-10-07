@@ -26,6 +26,12 @@ html{
     width: 250px;
 }
 
+.side-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .logo-cont{
     padding: 30px;
 }
@@ -421,15 +427,32 @@ ul li{
 }
 
 
+/* MEDIA QUERY */
 
-    
+@media screen and (max-width: 878px){
+
+    .card2-container1{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: calc(100% / 4);
+    }
+    .player-bar2{
+        width: 200px;
+    }
+}
+
+
+
+ 
 
 
 
 
 
 
-    
+ 
 
 
 
